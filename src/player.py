@@ -11,11 +11,11 @@ from std_msgs.msg import Int8
          "Funny",
          "Unbelievable"
 '''
-voice0 = 'catkin_ws/src/robo_talk/src/Excited.wav'
-voice1 = 'catkin_ws/src/robo_talk/src/Confused.wav'
-voice2 = 'catkin_ws/src/robo_talk/src/Sad.wav'
-voice3 = 'catkin_ws/src/robo_talk/src/Playful.wav'
-voice4 = 'catkin_ws/src/robo_talk/src/Unbelievable.wav'
+voice0 = 'catkin_ws/src/hsr_voicer/src/Excited.wav'
+voice1 = 'catkin_ws/src/hsr_voicer/src/Confused.wav'
+voice2 = 'catkin_ws/src/hsr_voicer/src/Sad.wav'
+voice3 = 'catkin_ws/src/hsr_voicer/src/Playful.wav'
+voice4 = 'catkin_ws/src/hsr_voicer/src/Unbelievable.wav'
 
 class Player(object):
     def __init__(self):
